@@ -1,0 +1,157 @@
+*{
+	margin : 0;
+	padding: 0;
+
+
+}
+.clearfix{
+clear :both;
+}
+#container{
+	
+	margin: 0 auto;
+	width: 100%;
+	font-family : arial;
+	
+	
+}	
+ header{
+	 background : url(images/download.png);
+	 width : 100%;
+	 color: white;
+	 
+ }
+  #left_header{
+	  padding : 50px 0;
+	  margin-left : 30px ;
+	  float: left;
+  }
+	nav {
+		float : right;
+	}
+	nav ul{}
+	nav ul li{
+		float: left;
+		padding :57px 30px;
+		font-size : 20px;
+		font-weight : bold;
+		margin : 0 2px;	
+        cursor : pointer;		
+		
+	}
+	nav a{
+		color : white;
+	}
+	
+	nav ul li:hover{
+		background : orange;
+		transition : background 1s;
+		
+	}
+	main {}
+	.main_image { 
+	    width: 200px;
+		height: 100%;
+	}
+	.section1 {
+		padding: 0 5%;
+	}
+	
+	.section1 h2{
+		text-align : center;
+		text-shadow : 2px 5px 2px silver;
+		padding : 20px;
+		font-size: 40px;
+	}
+	article {
+		width: 20%;
+		margin : 10px 5% 10px 0;
+		float: left;
+	}
+	.margin_left {
+		margin-left : 5%;
+	}
+	.margin_right {
+		margin-right : 0;
+	}
+	article img {
+		width: 100%;
+		height: 35%;
+		overflow : hidden;
+	}
+	article img:hover {
+		animation : img_animation 2s;
+	}
+	@keyframes img_animation{
+		from{width: 100%}
+		to{width: 150%}
+	}
+		
+	.article_title{
+		text-align : center;
+		margin: 10px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.sec_middle {
+		background : url(images/staff.jpg);
+		background-size : 100%;
+		width :100%;
+		height : 100%;
+		padding : 50 px 50 px;
+		box-sizing : border-box;
+	}
+	.sec_middle h2{ 
+	     text-align : center;
+		 font-size: 60px;
+		 text-shadow : 2px 5px 2px black;
+		 color : brown;
+		 margin-bottom : 40px;
+		 cursor : pointer;
+	}
+	.sec_middle h2:hover{ 
+	     text-decoration: underline;
+	}
+	.sec_middle .left_side {
+		width : 40%;
+		float : left;
+		margin-left: 20px;
+		margin-top: 50px;
+		
+		
+	}
+	.sec_middle .left_side img {
+		 width : 65%;
+		 border : 5px solid brown;
+		 border-radius : 10px;
+	}
+	.sec_middle .right_side {
+		width : 40%;
+		float : right;
+		font-weight : bold;
+		text-align : justify;
+		border : 5px solid brown;
+		margin-right : 10px ;
+		margin-top: 50px;
+		border-radius : 10px;
+		
+		}
+		footer {
+			 background : url(images/download.png);
+			 width : 100%;
+			 height : 5%;
+			 color : white;
+			 padding : 5px 5px ;
+		}
+		.left_f {
+			
+		}
+		.right_f{}
+			
+	
+		
+		
+		
+	
+		
